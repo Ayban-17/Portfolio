@@ -24,7 +24,7 @@ const navigations = [
 ];
 
 const RenderNavigations = () => {
-  const [open, setOpen] = useState<boolean>();
+  const [open, setOpen] = useState<boolean>(false);
 
   return (
     <nav>
@@ -49,9 +49,9 @@ const RenderNavigations = () => {
       />
 
       {open && (
-        <ul className="border-2 p-4 absolute right-4 flex flex-col gap-4 bg-black">
+        <ul className="p-4 absolute right-4 flex flex-col gap-4 bg-yellow-500 z-10">
           {navigations.map(({ path, name }, index) => (
-            <Link href={path} key={index}>
+            <Link href={path} key={index} onClick={() => setOpen(!open)}>
               <li className="font-bold text-white hover:text-gray-300">
                 {name}
               </li>
