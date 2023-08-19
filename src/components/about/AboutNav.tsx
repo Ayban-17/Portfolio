@@ -7,7 +7,7 @@ const navigations = ["Introduction", "Achievements", "Certificates"];
 const AboutNav = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const currentPath = searchParams.get("section");
+  const currentPath = searchParams.get("section") || "Introduction";
 
   return (
     <nav>
