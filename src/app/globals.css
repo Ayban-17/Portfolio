@@ -6,6 +6,26 @@ body {
   background-color: black;
 }
 
+/* Start Of Header Styles  */
+
+.active {
+  position: relative;
+}
+
+.active::after {
+  content: "";
+  width: 5px;
+  height: 20px;
+  bottom: 0;
+  right: -15px;
+  background-color: black;
+  position: absolute;
+}
+
+/* End of Header Styles  */
+
+/* Start of Home Styles  */
+
 .home-image::after {
   content: "";
   height: 200px;
@@ -44,26 +64,20 @@ body {
   }
 }
 
-.label-hidden {
-  left: -300px;
-  transition: all ease-in-out 0.5s;
+/* End of Home Styles  */
+
+/* Start of Projects Styles  */
+
+@media screen and (min-width: 1280px) {
+  .label-hidden {
+    left: -300px;
+    transition: all ease-in-out 0.5s;
+  }
+
+  .image-container:hover .label-hidden {
+    left: 0;
+    transition: all ease-in-out 0.5s;
+  }
 }
 
-.image-container:hover .label-hidden {
-  left: 0;
-  transition: all ease-in-out 0.5s;
-}
-
-.active {
-  position: relative;
-}
-
-.active::after {
-  content: "";
-  width: 5px;
-  height: 20px;
-  bottom: 0;
-  right: -15px;
-  background-color: black;
-  position: absolute;
-}
+/* End of Project Styles  */
