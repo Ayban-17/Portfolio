@@ -80,4 +80,10 @@ body {
   }
 }
 
+.project-container {
+  border-bottom: double 4px #f9e428;
+  border-top: double 4px #f9e428;
+  border-radius: 1rem;
+}
+
 /* End of Project Styles  */
