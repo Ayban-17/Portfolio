@@ -10,7 +10,7 @@
     "id": "10002",
     "name": "Mern Family App",
     "desc": "The MERN Family App is a comprehensive project in which I developed a full-stack application, leveraging the power of MongoDB, Express, React, and Node.js. I successfully implemented CRUD (Create, Read, Update, Delete) functionality, making it a highly functional web application. This project demonstrates my proficiency in building end-to-end applications, combining frontend technologies like React with backend technologies like Node.js and Express. I also ensured an intuitive and visually appealing user interface by incorporating Material UI.",
-    "liveUrl": "https://ayban-17.github.io/YouTube-Clone/",
+    "liveUrl": "https://mern-family-app.vercel.app/",
     "repoUrl": "https://github.com/Ayban-17/MERN-family-app"
   },
   {
