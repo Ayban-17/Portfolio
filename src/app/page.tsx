@@ -7,12 +7,12 @@ export default function Home() {
     <main className="flex-[80%] grid grid-cols-1 lg:grid-cols-2 relative">
       <RenderHeroText
         greet="👋 Hello, I'm Ayban!"
-        headline="Full Stack Developer"
+        headline=" Web Developer"
         subHeadline={
           <>
             Welcome to my digital space where creativity meets technology.
             I&apos;m a passionate{" "}
-            <span className="text-yellow-300"> Full Stack Developer</span>.
+            <span className="text-yellow-300"> Web Developer</span>, mostly Front-end.
             Through a blend of innovation and dedication, I bring ideas to life
             and create digital experiences that leave a lasting impact.
           </>
